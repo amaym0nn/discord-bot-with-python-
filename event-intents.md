@@ -1,6 +1,6 @@
 <h2> Events ve Intents </h2>
  
-<p> Eventler, sunucudaki kullanıcının sunucudaki hareketlerine göre geri cevap veren bir takım olaylardır. Bu hareketler, kullanıcının sunucuya girdiği anda hoşgeldin mesajı, kullanıcı sunucudan çıktığında görüşürüz mesajı gibi olaylara örnek verilebilir.  </p> 
+<p> Eventler, kullanıcının sunucudaki hareketlerine göre geri cevap veren bir takım olaylardır. Bu hareketler, kullanıcının sunucuya girdiği anda hoşgeldin mesajı, kullanıcı sunucudan çıktığında görüşürüz mesajı gibi olaylara örnek verilebilir.  </p> 
 
 </br>
 
