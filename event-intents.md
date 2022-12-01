@@ -1,23 +1,10 @@
-<style>
-h2 {
-    color: red;
-    font-size: 25px;
-    text-align: center;
-}
-
-p {
-    font-size: 15px;
-}
-
-</style>
-
 <h2> Events ve Intents </h2>
-
+ 
 <p> Eventler, sunucudaki kullanıcının sunucudaki hareketlerine göre geri cevap veren bir takım olaylardır. Bu hareketler, kullanıcının sunucuya girdiği anda hoşgeldin mesajı, kullanıcı sunucudan çıktığında görüşürüz mesajı gibi olaylara örnek verilebilir.  </p> 
 
 </br>
 
-<p> Tabi ki bir çok event vardır. Bunların hepsini öğrenmeye çalışmak bir nebze vakit kaybıdır. Bu yüzden geliştireceğiniz projeye göre eventleri öğrenmek daha avantajlı olacaktır. Aşağıda basit bir event için örnek yapalım: </p>
+<p> Tabi ki bir çok event vardır. Bunların hepsini öğrenmeye çalışmak bir nebze vakit kaybıdır. Bu yüzden geliştireceğiniz projeye göre eventleri öğrenmek daha avantajlı olacaktır. Aşağıda basit bir event için örnek verilmiştir: </p>
 
 ```py
 import discord
