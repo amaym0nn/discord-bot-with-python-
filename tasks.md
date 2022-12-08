@@ -10,7 +10,7 @@ Bot geliştirirken en yaygın yapılan işlemlerden biri loop yani döngülerdir
 from discord.ext import tasks
 ```
 
-tasks.loop ile döngü oluşturmak çok basittir. İlk örnek olarak proje direkt çalıştığında terminale <strong> Development Bot With Python </strong> adlı cümleyi 10 saniyede bir ekrana bastırmasını sağlayalım:
+tasks.loop ile döngü oluşturmak çok basittir. İlk örnek olarak proje direkt çalıştığında terminale <strong> Bot Development With Python </strong> adlı cümleyi 10 saniyede bir ekrana bastırmasını sağlayalım:
 
 ```py
 import discord
@@ -21,7 +21,7 @@ bot = commands.Bot(command_prefix="/", intents=intents)
 
 @tasks.loop(seconds=10)
 async def startloop():
-    print("Development Bot With Python")
+    print("Bot Development With Python")
 
 @bot.event
 async def on_ready():
@@ -29,7 +29,7 @@ async def on_ready():
     startloop.start()
 ```
 
-Yukarıdaki kodlardan bazı noktaları açıklayayım. @task.loop adlı bir event oluştururken parametre olarak bir seconds değeri girmek zorundayız. Buradaki seconds parametresinin amacı, bu döngünün kaç saniyede bir çalışacağını belirler. Dolasıyla yukarıda 10 saniye olduğunu belirtmişim. Bot çalıştığı takdirde her 10 saniyede bir <strong> Development Bot With Python </strong> cümlesini ekrana bastıracak. Döngüleri çalıştırma işlemlerini ise <strong> .start() </strong> kodu ile yapıyoruz. Eğer durdurmak istersek <strong>.stop() </strong> ile mümkün.
+Yukarıdaki kodlardan bazı noktaları açıklayayım. @task.loop adlı bir event oluştururken parametre olarak bir seconds değeri girmek zorundayız. Buradaki seconds parametresinin amacı, bu döngünün kaç saniyede bir çalışacağını belirler. Dolasıyla yukarıda 10 saniye olduğunu belirtmişim. Bot çalıştığı takdirde her 10 saniyede bir <strong> Bot Development With Python </strong> cümlesini ekrana bastıracak. Döngüleri çalıştırma işlemlerini ise <strong> .start() </strong> kodu ile yapıyoruz. Eğer durdurmak istersek <strong>.stop() </strong> ile mümkün.
 
 Dikkat edilmesi gereken bir nokta ise, döngüyü on_ready() altında çalışması. Döngüyü hangi event veya command içerisine çalıştırmak isterseniz onun altına yazmanız gerekir. 
 
