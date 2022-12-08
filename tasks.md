@@ -85,7 +85,7 @@ Daha sonra seconds parametresine 3600 değerini atayarak bir tasks.loop ile dön
         if chnls.id == 1048456334162538546: 
            await chnls.send(combining())
 ```
-Bu kısımda bir for döngüsü başlatılmış. for döngüsünde sunucudaki tüm odalar listeneliyor. For döngüsü altında eğer listenen odalarda belirtilen id var ise combining adlı fonksiyon çalışmaya başlıyor. Bu fonksiyon seconds parametresinde belirtildiği gibi 1 saatte bir kere çalışacak. Böylece belirtilen odanın id'sine <strong> https://github.com/amaym0nn </strong> adlı linki gönderecek.
+Bu kısımda bir for döngüsü başlatılmış. for döngüsünde sunucudaki tüm odalar listeneliyor. For döngüsü altında eğer listenen odalarda belirtilen id var ise combining adlı fonksiyon çalışmaya başlıyor. Bu fonksiyon seconds parametresinde belirtildiği gibi 1 saatte bir kere çalışacak. Böylece belirtilen odaya <strong> https://github.com/amaym0nn </strong> adlı linki gönderecek.
 
 Eğer program çıktısı bir fotoğraf ile görülmek istenirse aşağıda verilmiştir:
 <img src="https://i.ibb.co/TMjFh0C/image.png" alt="image" border="0">
