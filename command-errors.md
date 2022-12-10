@@ -51,4 +51,6 @@ async def clear_error(ctx, error):
         await ctx.send("Lütfen komutun çalışması için argüman giriniz!")
 ```
 
-Yukarıdaki kodlarda göründüğü gibi eğer kullanıcı temizlemek istediği mesaj sayısını belirtmediği takdirde **Lütfen komutun çalışması için argüman giriniz!** adlı bir hata mesajı gönderiyor.
+Yukarıdaki kodlarda göründüğü gibi eğer kullanıcı temizlemek istediği mesaj sayısını belirtmediği takdirde **Lütfen komutun çalışması için argüman giriniz!** adlı bir hata mesajı gönderiyor:
+
+<center> <img src="https://i.ibb.co/whMVtct/Screenshot-from-2022-12-10-11-44-42.png" alt="Screenshot-from-2022-12-10-11-44-42" border="0"> </center>
